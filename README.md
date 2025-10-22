@@ -1,11 +1,25 @@
-### Notes
+### Tutorial
 
-Press <Esc> twice to exit the simulation.
+Run with:
 
-Initially the game is transparent but doesn't allow pass through of clicks, so it captures the cursor.
+`swift hamster.swift`
 
-Press <Space> twice to idle the simulation.
+Or for a faster experience:
 
-This turns off cursor changing and allows pass through
+`swiftc hamster.swift && ./hamster`
 
-Storage is via xattrs
+Press `Esc` key **twice** to exit the simulation.
+
+Press `Space` bar **twice** to pause the simulation.
+
+---
+
+### Important notes
+
+Program uses xattrs to store saves, this means that editing and saving the file will most likely delete your save!
+
+Also, sending the file over the internet might strip the save.
+
+Also, copying the file (copy will be new game).
+
+And some other things.
